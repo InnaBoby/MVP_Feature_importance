@@ -77,4 +77,4 @@ st.table(feature_table)
 
 predicted = predict_cash(pred_data, model, subm)
 st.download('Получить предикт')
-#st.dataframe(predicted)
+st.table(predicted)
