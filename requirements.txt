@@ -310,7 +310,7 @@ tldextract @ file:///opt/conda/conda-bld/tldextract_1646638314385/work
 toml @ file:///tmp/build/80754af9/toml_1616166611790/work
 tomli @ file:///tmp/build/80754af9/tomli_1637314251069/work
 toolz @ file:///tmp/build/80754af9/toolz_1636545406491/work
-torch==2.2.2
+torch==1.8.1
 torchvision==0.11.1+cu113
 tornado @ file:///C:/ci/tornado_1606924294691/work
 tqdm @ file:///C:/ci/tqdm_1650636210717/work
