@@ -75,5 +75,5 @@ model_type = 'Catboost'
 feature_table = feature_importance_table(importance, names, feature_cols)
 st.table(feature_table)
 
-predicted = predict_cash(pred_data, model, subm)
-st.table(predicted)
+#predicted = predict_cash(pred_data, model, subm)
+#st.table(predicted)
