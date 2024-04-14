@@ -70,13 +70,10 @@ importance = model.feature_importances_
 names = range(len(feature_cols))
 model_type = 'Catboost'
 
-#st.write(plot_feature_importance(importance,names,model_type))
+st.write(plot_feature_importance(importance,names,model_type))
 
 feature_table = feature_importance_table(importance, names, feature_cols)
 st.table(feature_table)
 
 predicted = predict_cash(pred_data, model, subm)
-import datetime
-predicted['week'].astype(datetime)
-
-st.table(predicted)
+#st.dataframe(predicted)
