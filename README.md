@@ -13,4 +13,4 @@ app.py - логика приложения на Streamlit
 defs.py - функции по предобработке данных -> прогнозирование фичей при помощи LSTM-моделей -> прогноз выручки на основе спрогнозированных фичей при помощи Catboost -> feature-importance (таблица влияния всех фичей, график влияния) 
 
 __Решение:__
-приложение на Streamlit 
+приложение на Streamlit https://mvpfeatureimportance-jykejmmkj68ntbdi4fpa9v.streamlit.app/ 
